@@ -1,0 +1,16 @@
+{
+  "name": "angular-gql-subscriber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pk@codestryke.com",
+  "license": "CLOSED SOURCE",
+  "private": true,
+  "scripts": {
+    "hasura:console": "cd hasura && hasura console",
+    "hasura:migrate": "cd hasura && hasura migrate apply && hasura metadata apply && hasura metadata reload",
+    "hasura:start": "cd hasura && docker-compose up -d"
+  },
+  "devDependencies": {
+    "hasura-cli": "^2.0.8"
+  }
+}
